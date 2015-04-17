@@ -1,0 +1,32 @@
+<snippet>
+  <content>
+    <![CDATA[
+'use strict';
+
+require('./${1:${TM_FILENAME/(?:\.(\w+)$)//g}}.styl');
+var
+  React = require('react'),
+  Bem = require('mixins/bem'),
+
+  ${2:${TM_FILENAME/^(\w)|(?:_(\w))|(?:\.(\w+)$)/(?1\u$1:)(?2\u$2:)(?3:)/g}} = React.createClass({
+    mixins: [ Bem ],
+
+    render() {
+      return (
+        <div className={this.b_()}>
+          <div className={this.b_('-content')}>
+            $3
+          </div>
+        </div>
+      );
+    }
+  });
+
+module.exports = ${2:${TM_FILENAME/^(\w)|(?:_(\w))|(?:\.(\w+)$)/(?1\u$1:)(?2\u$2:)(?3:)/g}};
+]]>
+  </content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>createcomponent</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.jsx</scope> -->
+</snippet>
