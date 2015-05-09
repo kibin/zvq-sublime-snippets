@@ -1,9 +1,9 @@
 <snippet>
   <content>
-    <![CDATA[zvqApp.getUrl(zvq.application.Settings.UrlType.$1)$2]]>
+    <![CDATA[goog.require('zvq.$1');]]>
   </content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>zvqurl</tabTrigger>
+  <tabTrigger>req</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <!-- <scope>source.jsx</scope> -->
 </snippet>
