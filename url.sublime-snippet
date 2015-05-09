@@ -1,6 +1,6 @@
 <snippet>
   <content>
-    <![CDATA[zvqApp.getUrl(zvq.application.Settings.UrlType.$1);]]>
+    <![CDATA[zvqApp.getUrl(zvq.application.Settings.UrlType.$1)]]>
   </content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>zvqurl</tabTrigger>
