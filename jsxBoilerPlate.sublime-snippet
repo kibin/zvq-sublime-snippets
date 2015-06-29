@@ -4,6 +4,7 @@
 'use strict';
 
 require('./${1:${TM_FILENAME/(?:\.(\w+)$)//g}}.styl');
+
 const
   ${2:${TM_FILENAME/^(\w)|(?:_(\w))|(?:\.(\w+)$)/(?1\u$1:)(?2\u$2:)(?3:)/g}} = React.createClass({
     mixins: [ Bem ],
@@ -19,7 +20,7 @@ const
     }
   });
 
-module.exports = ${2:${TM_FILENAME/^(\w)|(?:_(\w))|(?:\.(\w+)$)/(?1\u$1:)(?2\u$2:)(?3:)/g}};
+export default ${2:${TM_FILENAME/^(\w)|(?:_(\w))|(?:\.(\w+)$)/(?1\u$1:)(?2\u$2:)(?3:)/g}};
 ]]>
   </content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
