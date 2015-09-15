@@ -1,23 +1,19 @@
 <snippet>
   <content>
     <![CDATA[
-/** @jsx React.DOM */
 goog.provide('zvq.components.${1:${TM_FILENAME/^(\w)|(?:_(\w))|(?:\.(\w+)$)/(?1\u$1:)(?2\u$2:)(?3:)/g}}');
 
 goog.require('zvq.components.mixins.BEM');
 
-zvq.components.${1:${TM_FILENAME/^(\w)|(?:_(\w))|(?:\.(\w+)$)/(?1\u$1:)(?2\u$2:)(?3:)/g}} = React.createClass(
-  /** @lends React.ReactComponent.prototype */
-  {
-    mixins: [ zvq.components.mixins.BEM ],
+zvq.components.${1:${TM_FILENAME/^(\w)|(?:_(\w))|(?:\.(\w+)$)/(?1\u$1:)(?2\u$2:)(?3:)/g}} = React.createClass({
+  mixins: [ zvq.components.mixins.BEM ],
 
-    render: function() {
-      return (
-        $2
-      );
-    }
+  render: function() {
+    return (
+      $2
+    );
   }
-);
+});
 ]]>
   </content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
