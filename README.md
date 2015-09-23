@@ -14,7 +14,7 @@ className={this.b_($1)}$2
 ```javascript
 'use strict';
 
-require('./<$2filename>.styl');
+require('./<$1filename>.styl');
 
 const
   <$2filename> = React.createClass({
