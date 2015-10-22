@@ -1,9 +1,7 @@
 <snippet>
   <content>
     <![CDATA[
-'use strict';
-
-require('./${1:${TM_FILENAME/(?:\.(\w+)$)//g}}.styl');
+import from './${1:${TM_FILENAME/(?:\.(\w+)$)//g}}.styl'
 
 const
   ${2:${TM_FILENAME/^(\w)|(?:_(\w))|(?:\.(\w+)$)/(?1\u$1:)(?2\u$2:)(?3:)/g}} = React.createClass({
