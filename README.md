@@ -12,9 +12,7 @@ className={this.b_($1)}$2
 (for TY)
 =>
 ```javascript
-'use strict';
-
-require('./<$1filename>.styl');
+import './<$1filename>.styl';
 
 const
   <$2filename> = React.createClass({
