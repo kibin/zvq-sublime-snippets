@@ -1,9 +1,0 @@
-<snippet>
-  <content>
-    <![CDATA[className={this.b_($1)}$2]]>
-  </content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>b_</tabTrigger>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <!-- <scope>source.jsx</scope> -->
-</snippet>

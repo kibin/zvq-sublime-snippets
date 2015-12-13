@@ -1,9 +1,9 @@
 <snippet>
   <tabTrigger>
-    req
+    b_
   </tabTrigger>
 
   <content>
-    <![CDATA[goog.require('zvq.$1');]]>
+    <![CDATA[className={this.b_($1)}$2]]>
   </content>
 </snippet>

@@ -1,4 +1,8 @@
 <snippet>
+  <tabTrigger>
+    zjsx
+  </tabTrigger>
+
   <content>
     <![CDATA[
 goog.provide('zvq.components.${1:${TM_FILENAME/^(\w)|(?:_(\w))|(?:\.(\w+)$)/(?1\u$1:)(?2\u$2:)(?3:)/g}}');
@@ -16,8 +20,4 @@ zvq.components.${1:${TM_FILENAME/^(\w)|(?:_(\w))|(?:\.(\w+)$)/(?1\u$1:)(?2\u$2:)
 });
 ]]>
   </content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>zvooqcomponent</tabTrigger>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <!-- <scope>source.jsx</scope> -->
 </snippet>

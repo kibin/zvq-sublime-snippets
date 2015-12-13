@@ -1,9 +1,10 @@
 <snippet>
+  <tabTrigger>
+    removecard
+  </tabTrigger>
+
   <content>
+    <!-- utility, because I always forget how to do card removing -->
     <![CDATA[\$.ajax({ url: '/api/payment/payture/remove', type: 'POST' })]]>
   </content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>removecard</tabTrigger>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <!-- <scope>source.jsx</scope> -->
 </snippet>

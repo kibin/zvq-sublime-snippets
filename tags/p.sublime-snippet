@@ -1,0 +1,14 @@
+<snippet>
+  <scope>
+    source.jsx
+  </scope>
+
+  <tabTrigger>
+    p
+  </tabTrigger>
+
+  <content>
+    <![CDATA[<p className=$1$2>$3</p>]]>
+  </content>
+</snippet>
+

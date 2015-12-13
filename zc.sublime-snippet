@@ -1,0 +1,18 @@
+<snippet>
+  <tabTrigger>
+    zc
+  </tabTrigger>
+
+  <content>
+    <![CDATA[
+const ${1:ClassName} = React.createClass({
+  ${2:mixins: [ zvq.components.mixins.BEM ],}
+  render() {
+    return (
+      $3
+    );
+  }
+});
+    ]]>
+  </content>
+</snippet>

@@ -1,0 +1,23 @@
+<snippet>
+  <!-- scope>
+    if you, like, want to trigger this
+    only in, like, some file types,
+    then uncomment tag and, like:
+    source + file extension, like:
+    source.jsx
+    or
+    source.css
+    or
+    source.ohmygod
+    and so on
+  </scope -->
+
+  <tabTrigger>
+    type your trigger here, like
+    btw
+  </tabTrigger>
+
+  <content>
+    <![CDATA[By The Way, biotch]]>
+  </content>
+</snippet>
