@@ -21,8 +21,8 @@ const
 export default ${2:${TM_FILENAME/^(\w)|(?:_(\w))|(?:\.(\w+)$)/(?1\u$1:)(?2\u$2:)(?3:)/g}};
 ]]>
   </content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>createcomponent</tabTrigger>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <!-- <scope>source.jsx</scope> -->
+
+  <tabTrigger>
+    createcomponent
+  </tabTrigger>
 </snippet>

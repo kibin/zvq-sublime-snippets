@@ -11,8 +11,8 @@ const ${1:ClassName} = React.createClass({
 });
     ]]>
   </content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>createclass</tabTrigger>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <!-- <scope>source.jsx</scope> -->
+
+  <tabTrigger>
+    createclass
+  </tabTrigger>
 </snippet>
