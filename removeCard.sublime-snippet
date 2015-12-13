@@ -1,5 +1,6 @@
 <snippet>
   <content>
+    <!-- utility, because I always forget how to do card removing -->
     <![CDATA[\$.ajax({ url: '/api/payment/payture/remove', type: 'POST' })]]>
   </content>
 
