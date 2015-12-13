@@ -1,6 +1,24 @@
 # zvqsnippets
 Snippets for zvooq
 
+### tags
+There are several common tags that are expanded in simple tag with tab-triggers
+that move your cursor to the positions of className, attributes, content.
+
+These tags are `div`, `span`, `a`, `p`, `ul` and `li`.
+
+There are also two special abstract tags that has another one more tab-trigger.
+They are `h` tag which unfolds in `h1` by default with `1` highlighted.
+And the `tag` tag which unfolds in `div` by default with `div` highlighted.
+The last one is special because you can do any tag with it, just start typing.
+
+##### tag
+
+=>
+```javascript
+<$1div className=$2$3>$4</$1div>
+```
+
 ### b_
 
 =>
@@ -8,8 +26,7 @@ Snippets for zvooq
 className={this.b_($1)}$2
 ```
 
-### createcomponent
-(for TY)
+### tyjsx
 =>
 ```javascript
 require('./<$1filename>.styl');
@@ -27,12 +44,11 @@ const
       );
     }
   });
-  
+
 module.exports = <$2filename>;
 ```
 
-### zvooqcomponent 
-(for ZVOOQ)
+### zjsx
 =>
 
 ```javascript
