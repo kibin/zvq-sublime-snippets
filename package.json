@@ -1,6 +1,6 @@
 {
   "name": "zvq-sublime-snippets",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Sublime-text snippets for zvooq-team",
   "main": "README.md",
   "scripts": {
