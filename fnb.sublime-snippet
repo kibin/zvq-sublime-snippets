@@ -3,7 +3,7 @@
     <![CDATA[function($1) { $2 }.bind(this)$3]]>
   </content>
 
- <tabTrigger>
+  <tabTrigger>
     fnb
   </tabTrigger>
 </snippet>
