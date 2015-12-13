@@ -1,9 +1,9 @@
 <snippet>
-  <content>
-    <![CDATA[goog.require('zvq.$1');]]>
-  </content>
-
   <tabTrigger>
     req
   </tabTrigger>
+
+  <content>
+    <![CDATA[goog.require('zvq.$1');]]>
+  </content>
 </snippet>

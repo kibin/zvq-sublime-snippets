@@ -1,9 +1,9 @@
 <snippet>
-  <content>
-    <![CDATA[className={this.b_($1)}$2]]>
-  </content>
-
   <tabTrigger>
     b_
   </tabTrigger>
+
+  <content>
+    <![CDATA[className={this.b_($1)}$2]]>
+  </content>
 </snippet>

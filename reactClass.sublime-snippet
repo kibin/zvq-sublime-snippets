@@ -1,4 +1,8 @@
 <snippet>
+  <tabTrigger>
+    createclass
+  </tabTrigger>
+
   <content>
     <![CDATA[
 const ${1:ClassName} = React.createClass({
@@ -11,8 +15,4 @@ const ${1:ClassName} = React.createClass({
 });
     ]]>
   </content>
-
-  <tabTrigger>
-    createclass
-  </tabTrigger>
 </snippet>

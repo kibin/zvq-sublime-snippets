@@ -1,4 +1,8 @@
 <snippet>
+  <tabTrigger>
+    createcomponent
+  </tabTrigger>
+
   <content>
     <![CDATA[
 require('./${1:${TM_FILENAME/(?:\.(\w+)$)//g}}.styl');
@@ -21,8 +25,4 @@ const
 module.exports = ${2:${TM_FILENAME/^(\w)|(?:_(\w))|(?:\.(\w+)$)/(?1\u$1:)(?2\u$2:)(?3:)/g}};
 ]]>
   </content>
-
-  <tabTrigger>
-    createcomponent
-  </tabTrigger>
 </snippet>

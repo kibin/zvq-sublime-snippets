@@ -1,9 +1,9 @@
 <snippet>
-  <content>
-    <![CDATA[zvqApp.getUrl(zvq.application.Settings.UrlType.$1)$2]]>
-  </content>
-
   <tabTrigger>
     zvqurl
   </tabTrigger>
+
+  <content>
+    <![CDATA[zvqApp.getUrl(zvq.application.Settings.UrlType.$1)$2]]>
+  </content>
 </snippet>
