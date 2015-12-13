@@ -8,6 +8,6 @@
   </tabTrigger>
 
   <content>
-    <![CDATA[<span className="$1"$2>$3</span>]]>
+    <![CDATA[<span className=$1$2>$3</span>]]>
   </content>
 </snippet>

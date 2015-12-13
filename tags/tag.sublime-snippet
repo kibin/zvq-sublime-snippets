@@ -8,7 +8,7 @@
   </tabTrigger>
 
   <content>
-    <![CDATA[<${1:div} className="$2"$3>$4</${1:div}>]]>
+    <![CDATA[<${1:div} className=$2$3>$4</${1:div}>]]>
   </content>
 </snippet>
 
