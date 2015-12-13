@@ -12,7 +12,7 @@ className={this.b_($1)}$2
 (for TY)
 =>
 ```javascript
-import './<$1filename>.styl';
+require('./<$1filename>.styl');
 
 const
   <$2filename> = React.createClass({
@@ -28,7 +28,7 @@ const
     }
   });
   
-export default <$2filename>;
+module.exports = <$2filename>;
 ```
 
 ### zvooqcomponent 
